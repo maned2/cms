@@ -1,0 +1,41 @@
+body {
+    padding-top: 50px;
+}
+
+aside {
+    margin-top: 109px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.navbar-inverse .navbar-nav>li>a.ava {
+    position:relative;
+    padding-left:60px;
+}
+a.ava img {
+    position: absolute;
+    top:5px;
+    left:15px;
+    width:40px;
+}
+
+.footer {
+    color:#FFF;
+    padding: 10px 0 0 0;
+    background-color: #222;
+    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+}
+
+.users.main .user {display:inline-block;text-align: center}
+
+/*.popover {width:200px;}*/
